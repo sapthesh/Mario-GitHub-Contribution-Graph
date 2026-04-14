@@ -1,0 +1,585 @@
+<svg width="758" height="156" viewBox="0 0 758 156" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; }
+    .empty { fill: #161b22; rx: 2; ry: 2; }
+    .lvl1 { fill: #0e4429; rx: 2; ry: 2; }
+    .lvl2 { fill: #006d32; rx: 2; ry: 2; }
+    .lvl3 { fill: #26a641; rx: 2; ry: 2; }
+    .lvl4 { fill: #39d353; rx: 2; ry: 2; }
+    .ground { fill: #8B4513; }
+    .ground-top { fill: #5C2E0B; }
+  </style>
+  <rect width="100%" height="100%" class="bg" />
+  <g transform="translate(8, 8)">
+    <!-- Game Ground -->
+    <rect x="0" y="122" width="742" height="20" class="ground" />
+    <rect x="0" y="122" width="742" height="2" class="ground-top" />
+    <rect x="0" y="0" width="10" height="10" class="empty" />
+    <rect x="0" y="14" width="10" height="10" class="empty" />
+    <rect x="0" y="28" width="10" height="10" class="empty" />
+    <rect x="0" y="42" width="10" height="10" class="empty" />
+    <rect x="0" y="56" width="10" height="10" class="empty" />
+    <rect x="0" y="70" width="10" height="10" class="empty" />
+    <rect x="0" y="84" width="10" height="10" class="empty" />
+    <rect x="14" y="0" width="10" height="10" class="empty" />
+    <rect x="14" y="14" width="10" height="10" class="empty" />
+    <rect x="14" y="28" width="10" height="10" class="empty" />
+    <rect x="14" y="42" width="10" height="10" class="empty" />
+    <rect x="14" y="56" width="10" height="10" class="empty" />
+    <rect x="14" y="70" width="10" height="10" class="empty" />
+    <rect x="14" y="84" width="10" height="10" class="empty" />
+    <rect x="28" y="0" width="10" height="10" class="empty" />
+    <rect x="28" y="14" width="10" height="10" class="empty" />
+    <rect x="28" y="28" width="10" height="10" class="empty" />
+    <rect x="28" y="42" width="10" height="10" class="empty" />
+    <rect x="28" y="56" width="10" height="10" class="empty" />
+    <rect x="28" y="70" width="10" height="10" class="empty" />
+    <rect x="28" y="84" width="10" height="10" class="empty" />
+    <rect x="42" y="0" width="10" height="10" class="empty" />
+    <rect x="42" y="14" width="10" height="10" class="empty" />
+    <rect x="42" y="28" width="10" height="10" class="empty" />
+    <rect x="42" y="42" width="10" height="10" class="empty" />
+    <rect x="42" y="56" width="10" height="10" class="empty" />
+    <rect x="42" y="70" width="10" height="10" class="empty" />
+    <rect x="42" y="84" width="10" height="10" class="empty" />
+    <rect x="56" y="0" width="10" height="10" class="empty" />
+    <rect x="56" y="14" width="10" height="10" class="empty" />
+    <rect x="56" y="28" width="10" height="10" class="empty" />
+    <rect x="56" y="42" width="10" height="10" class="empty" />
+    <rect x="56" y="56" width="10" height="10" class="empty" />
+    <rect x="56" y="70" width="10" height="10" class="empty" />
+    <rect x="56" y="84" width="10" height="10" class="empty" />
+    <rect x="70" y="0" width="10" height="10" class="empty" />
+    <rect x="70" y="14" width="10" height="10" class="empty" />
+    <rect x="70" y="28" width="10" height="10" class="empty" />
+    <rect x="70" y="42" width="10" height="10" class="empty" />
+    <rect x="70" y="56" width="10" height="10" class="empty" />
+    <rect x="70" y="70" width="10" height="10" class="empty" />
+    <rect x="70" y="84" width="10" height="10" class="empty" />
+    <rect x="84" y="0" width="10" height="10" class="empty" />
+    <rect x="84" y="14" width="10" height="10" class="empty" />
+    <rect x="84" y="28" width="10" height="10" class="empty" />
+    <rect x="84" y="42" width="10" height="10" class="empty" />
+    <rect x="84" y="56" width="10" height="10" class="empty" />
+    <rect x="84" y="70" width="10" height="10" class="empty" />
+    <rect x="84" y="84" width="10" height="10" class="empty" />
+    <rect x="98" y="0" width="10" height="10" class="empty" />
+    <rect x="98" y="14" width="10" height="10" class="empty" />
+    <rect x="98" y="28" width="10" height="10" class="empty" />
+    <rect x="98" y="42" width="10" height="10" class="empty" />
+    <rect x="98" y="56" width="10" height="10" class="empty" />
+    <rect x="98" y="70" width="10" height="10" class="empty" />
+    <rect x="98" y="84" width="10" height="10" class="empty" />
+    <rect x="112" y="0" width="10" height="10" class="empty" />
+    <rect x="112" y="14" width="10" height="10" class="empty" />
+    <rect x="112" y="28" width="10" height="10" class="empty" />
+    <rect x="112" y="42" width="10" height="10" class="empty" />
+    <rect x="112" y="56" width="10" height="10" class="empty" />
+    <rect x="112" y="70" width="10" height="10" class="empty" />
+    <rect x="112" y="84" width="10" height="10" class="empty" />
+    <rect x="126" y="0" width="10" height="10" class="empty" />
+    <rect x="126" y="14" width="10" height="10" class="empty" />
+    <rect x="126" y="28" width="10" height="10" class="empty" />
+    <rect x="126" y="42" width="10" height="10" class="empty" />
+    <rect x="126" y="56" width="10" height="10" class="empty" />
+    <rect x="126" y="70" width="10" height="10" class="empty" />
+    <rect x="126" y="84" width="10" height="10" class="empty" />
+    <rect x="140" y="0" width="10" height="10" class="empty" />
+    <rect x="140" y="14" width="10" height="10" class="empty" />
+    <rect x="140" y="28" width="10" height="10" class="empty" />
+    <rect x="140" y="42" width="10" height="10" class="empty" />
+    <rect x="140" y="56" width="10" height="10" class="empty" />
+    <rect x="140" y="70" width="10" height="10" class="empty" />
+    <rect x="140" y="84" width="10" height="10" class="empty" />
+    <rect x="154" y="0" width="10" height="10" class="empty" />
+    <rect x="154" y="14" width="10" height="10" class="empty" />
+    <rect x="154" y="28" width="10" height="10" class="empty" />
+    <rect x="154" y="42" width="10" height="10" class="empty" />
+    <rect x="154" y="56" width="10" height="10" class="empty" />
+    <rect x="154" y="70" width="10" height="10" class="empty" />
+    <rect x="154" y="84" width="10" height="10" class="empty" />
+    <rect x="168" y="0" width="10" height="10" class="empty" />
+    <rect x="168" y="14" width="10" height="10" class="empty" />
+    <rect x="168" y="28" width="10" height="10" class="empty" />
+    <rect x="168" y="42" width="10" height="10" class="empty" />
+    <rect x="168" y="56" width="10" height="10" class="empty" />
+    <rect x="168" y="70" width="10" height="10" class="empty" />
+    <rect x="168" y="84" width="10" height="10" class="empty" />
+    <rect x="182" y="0" width="10" height="10" class="empty" />
+    <rect x="182" y="14" width="10" height="10" class="empty" />
+    <rect x="182" y="28" width="10" height="10" class="empty" />
+    <rect x="182" y="42" width="10" height="10" class="empty" />
+    <rect x="182" y="56" width="10" height="10" class="empty" />
+    <rect x="182" y="70" width="10" height="10" class="empty" />
+    <rect x="182" y="84" width="10" height="10" class="empty" />
+    <rect x="196" y="0" width="10" height="10" class="empty" />
+    <rect x="196" y="14" width="10" height="10" class="empty" />
+    <rect x="196" y="28" width="10" height="10" class="empty" />
+    <rect x="196" y="42" width="10" height="10" class="empty" />
+    <rect x="196" y="56" width="10" height="10" class="empty" />
+    <rect x="196" y="70" width="10" height="10" class="empty" />
+    <rect x="196" y="84" width="10" height="10" class="empty" />
+    <rect x="210" y="0" width="10" height="10" class="empty" />
+    <rect x="210" y="14" width="10" height="10" class="empty" />
+    <rect x="210" y="28" width="10" height="10" class="empty" />
+    <rect x="210" y="42" width="10" height="10" class="empty" />
+    <rect x="210" y="56" width="10" height="10" class="empty" />
+    <rect x="210" y="70" width="10" height="10" class="empty" />
+    <rect x="210" y="84" width="10" height="10" class="empty" />
+    <rect x="224" y="0" width="10" height="10" class="empty" />
+    <rect x="224" y="14" width="10" height="10" class="empty" />
+    <rect x="224" y="28" width="10" height="10" class="empty" />
+    <rect x="224" y="42" width="10" height="10" class="empty" />
+    <rect x="224" y="56" width="10" height="10" class="empty" />
+    <rect x="224" y="70" width="10" height="10" class="empty" />
+    <rect x="224" y="84" width="10" height="10" class="empty" />
+    <rect x="238" y="0" width="10" height="10" class="empty" />
+    <rect x="238" y="14" width="10" height="10" class="empty" />
+    <rect x="238" y="28" width="10" height="10" class="empty" />
+    <rect x="238" y="42" width="10" height="10" class="empty" />
+    <rect x="238" y="56" width="10" height="10" class="empty" />
+    <rect x="238" y="70" width="10" height="10" class="empty" />
+    <rect x="238" y="84" width="10" height="10" class="empty" />
+    <rect x="252" y="0" width="10" height="10" class="empty" />
+    <rect x="252" y="14" width="10" height="10" class="empty" />
+    <rect x="252" y="28" width="10" height="10" class="empty" />
+    <rect x="252" y="42" width="10" height="10" class="empty" />
+    <rect x="252" y="56" width="10" height="10" class="empty" />
+    <rect x="252" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.340;0.380;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.340;0.341;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="252" y="70" width="10" height="10" class="empty" />
+    <rect x="252" y="84" width="10" height="10" class="empty" />
+    <rect x="266" y="0" width="10" height="10" class="empty" />
+    <rect x="266" y="14" width="10" height="10" class="empty" />
+    <rect x="266" y="28" width="10" height="10" class="empty" />
+    <rect x="266" y="42" width="10" height="10" class="empty" />
+    <rect x="266" y="56" width="10" height="10" class="empty" />
+    <rect x="266" y="70" width="10" height="10" class="empty" />
+    <rect x="266" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.358;0.398;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.358;0.359;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="266" y="84" width="10" height="10" class="empty" />
+    <rect x="266" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;84;84" keyTimes="0;0.358;0.398;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.358;0.359;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="280" y="0" width="10" height="10" class="empty" />
+    <rect x="280" y="14" width="10" height="10" class="empty" />
+    <rect x="280" y="28" width="10" height="10" class="empty" />
+    <rect x="280" y="42" width="10" height="10" class="empty" />
+    <rect x="280" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.377;0.417;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.377;0.378;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="280" y="56" width="10" height="10" class="empty" />
+    <rect x="280" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.377;0.417;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.377;0.378;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="280" y="70" width="10" height="10" class="empty" />
+    <rect x="280" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.377;0.417;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.377;0.378;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="280" y="84" width="10" height="10" class="empty" />
+    <rect x="294" y="0" width="10" height="10" class="empty" />
+    <rect x="294" y="14" width="10" height="10" class="empty" />
+    <rect x="294" y="28" width="10" height="10" class="empty" />
+    <rect x="294" y="42" width="10" height="10" class="empty" />
+    <rect x="294" y="56" width="10" height="10" class="empty" />
+    <rect x="294" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.396;0.436;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.396;0.397;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="294" y="70" width="10" height="10" class="empty" />
+    <rect x="294" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.396;0.436;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.396;0.397;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="294" y="84" width="10" height="10" class="empty" />
+    <rect x="294" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;84;84" keyTimes="0;0.396;0.436;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.396;0.397;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="308" y="0" width="10" height="10" class="empty" />
+    <rect x="308" y="14" width="10" height="10" class="empty" />
+    <rect x="308" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.415;0.455;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.415;0.416;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="308" y="28" width="10" height="10" class="empty" />
+    <rect x="308" y="42" width="10" height="10" class="empty" />
+    <rect x="308" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.415;0.455;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.415;0.416;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="308" y="56" width="10" height="10" class="empty" />
+    <rect x="308" y="70" width="10" height="10" class="empty" />
+    <rect x="308" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.415;0.455;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.415;0.416;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="308" y="84" width="10" height="10" class="empty" />
+    <rect x="322" y="0" width="10" height="10" class="empty" />
+    <rect x="322" y="14" width="10" height="10" class="empty" />
+    <rect x="322" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.434;0.474;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.434;0.435;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="322" y="28" width="10" height="10" class="empty" />
+    <rect x="322" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.434;0.474;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.434;0.435;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="322" y="42" width="10" height="10" class="empty" />
+    <rect x="322" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.434;0.474;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.434;0.435;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="322" y="56" width="10" height="10" class="empty" />
+    <rect x="322" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.434;0.474;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.434;0.435;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="322" y="70" width="10" height="10" class="empty" />
+    <rect x="322" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.434;0.474;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.434;0.435;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="322" y="84" width="10" height="10" class="empty" />
+    <rect x="322" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;84;84" keyTimes="0;0.434;0.474;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.434;0.435;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="336" y="0" width="10" height="10" class="empty" />
+    <rect x="336" y="14" width="10" height="10" class="empty" />
+    <rect x="336" y="28" width="10" height="10" class="empty" />
+    <rect x="336" y="42" width="10" height="10" class="empty" />
+    <rect x="336" y="56" width="10" height="10" class="empty" />
+    <rect x="336" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.453;0.493;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.453;0.454;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="336" y="70" width="10" height="10" class="empty" />
+    <rect x="336" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.453;0.493;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.453;0.454;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="336" y="84" width="10" height="10" class="empty" />
+    <rect x="350" y="0" width="10" height="10" class="empty" />
+    <rect x="350" y="14" width="10" height="10" class="empty" />
+    <rect x="350" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.472;0.512;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.472;0.473;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="350" y="28" width="10" height="10" class="empty" />
+    <rect x="350" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.472;0.512;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.472;0.473;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="350" y="42" width="10" height="10" class="empty" />
+    <rect x="350" y="56" width="10" height="10" class="empty" />
+    <rect x="350" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.472;0.512;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.472;0.473;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="350" y="70" width="10" height="10" class="empty" />
+    <rect x="350" y="84" width="10" height="10" class="empty" />
+    <rect x="364" y="0" width="10" height="10" class="empty" />
+    <rect x="364" y="14" width="10" height="10" class="empty" />
+    <rect x="364" y="28" width="10" height="10" class="empty" />
+    <rect x="364" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.491;0.531;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.491;0.492;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="364" y="42" width="10" height="10" class="empty" />
+    <rect x="364" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.491;0.531;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.491;0.492;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="364" y="56" width="10" height="10" class="empty" />
+    <rect x="364" y="70" width="10" height="10" class="empty" />
+    <rect x="364" y="84" width="10" height="10" class="empty" />
+    <rect x="378" y="0" width="10" height="10" class="empty" />
+    <rect x="378" y="14" width="10" height="10" class="empty" />
+    <rect x="378" y="28" width="10" height="10" class="empty" />
+    <rect x="378" y="42" width="10" height="10" class="empty" />
+    <rect x="378" y="56" width="10" height="10" class="empty" />
+    <rect x="378" y="70" width="10" height="10" class="empty" />
+    <rect x="378" y="84" width="10" height="10" class="empty" />
+    <rect x="392" y="0" width="10" height="10" class="empty" />
+    <rect x="392" y="14" width="10" height="10" class="empty" />
+    <rect x="392" y="28" width="10" height="10" class="empty" />
+    <rect x="392" y="42" width="10" height="10" class="empty" />
+    <rect x="392" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.528;0.568;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.528;0.529;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="392" y="56" width="10" height="10" class="empty" />
+    <rect x="392" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.528;0.568;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.528;0.529;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="392" y="70" width="10" height="10" class="empty" />
+    <rect x="392" y="112" width="10" height="10" class="lvl4">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.528;0.568;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.528;0.529;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="392" y="84" width="10" height="10" class="empty" />
+    <rect x="406" y="0" width="10" height="10" class="empty" />
+    <rect x="406" y="14" width="10" height="10" class="empty" />
+    <rect x="406" y="28" width="10" height="10" class="empty" />
+    <rect x="406" y="42" width="10" height="10" class="empty" />
+    <rect x="406" y="56" width="10" height="10" class="empty" />
+    <rect x="406" y="70" width="10" height="10" class="empty" />
+    <rect x="406" y="84" width="10" height="10" class="empty" />
+    <rect x="420" y="0" width="10" height="10" class="empty" />
+    <rect x="420" y="14" width="10" height="10" class="empty" />
+    <rect x="420" y="28" width="10" height="10" class="empty" />
+    <rect x="420" y="42" width="10" height="10" class="empty" />
+    <rect x="420" y="56" width="10" height="10" class="empty" />
+    <rect x="420" y="70" width="10" height="10" class="empty" />
+    <rect x="420" y="84" width="10" height="10" class="empty" />
+    <rect x="434" y="0" width="10" height="10" class="empty" />
+    <rect x="434" y="14" width="10" height="10" class="empty" />
+    <rect x="434" y="28" width="10" height="10" class="empty" />
+    <rect x="434" y="42" width="10" height="10" class="empty" />
+    <rect x="434" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.585;0.625;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.585;0.586;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="434" y="56" width="10" height="10" class="empty" />
+    <rect x="434" y="70" width="10" height="10" class="empty" />
+    <rect x="434" y="84" width="10" height="10" class="empty" />
+    <rect x="448" y="0" width="10" height="10" class="empty" />
+    <rect x="448" y="14" width="10" height="10" class="empty" />
+    <rect x="448" y="28" width="10" height="10" class="empty" />
+    <rect x="448" y="42" width="10" height="10" class="empty" />
+    <rect x="448" y="56" width="10" height="10" class="empty" />
+    <rect x="448" y="70" width="10" height="10" class="empty" />
+    <rect x="448" y="84" width="10" height="10" class="empty" />
+    <rect x="462" y="0" width="10" height="10" class="empty" />
+    <rect x="462" y="14" width="10" height="10" class="empty" />
+    <rect x="462" y="28" width="10" height="10" class="empty" />
+    <rect x="462" y="42" width="10" height="10" class="empty" />
+    <rect x="462" y="56" width="10" height="10" class="empty" />
+    <rect x="462" y="70" width="10" height="10" class="empty" />
+    <rect x="462" y="84" width="10" height="10" class="empty" />
+    <rect x="476" y="0" width="10" height="10" class="empty" />
+    <rect x="476" y="14" width="10" height="10" class="empty" />
+    <rect x="476" y="28" width="10" height="10" class="empty" />
+    <rect x="476" y="42" width="10" height="10" class="empty" />
+    <rect x="476" y="56" width="10" height="10" class="empty" />
+    <rect x="476" y="70" width="10" height="10" class="empty" />
+    <rect x="476" y="84" width="10" height="10" class="empty" />
+    <rect x="490" y="0" width="10" height="10" class="empty" />
+    <rect x="490" y="14" width="10" height="10" class="empty" />
+    <rect x="490" y="28" width="10" height="10" class="empty" />
+    <rect x="490" y="42" width="10" height="10" class="empty" />
+    <rect x="490" y="56" width="10" height="10" class="empty" />
+    <rect x="490" y="70" width="10" height="10" class="empty" />
+    <rect x="490" y="84" width="10" height="10" class="empty" />
+    <rect x="504" y="0" width="10" height="10" class="empty" />
+    <rect x="504" y="14" width="10" height="10" class="empty" />
+    <rect x="504" y="28" width="10" height="10" class="empty" />
+    <rect x="504" y="42" width="10" height="10" class="empty" />
+    <rect x="504" y="56" width="10" height="10" class="empty" />
+    <rect x="504" y="70" width="10" height="10" class="empty" />
+    <rect x="504" y="84" width="10" height="10" class="empty" />
+    <rect x="518" y="0" width="10" height="10" class="empty" />
+    <rect x="518" y="14" width="10" height="10" class="empty" />
+    <rect x="518" y="28" width="10" height="10" class="empty" />
+    <rect x="518" y="42" width="10" height="10" class="empty" />
+    <rect x="518" y="56" width="10" height="10" class="empty" />
+    <rect x="518" y="70" width="10" height="10" class="empty" />
+    <rect x="518" y="84" width="10" height="10" class="empty" />
+    <rect x="532" y="0" width="10" height="10" class="empty" />
+    <rect x="532" y="14" width="10" height="10" class="empty" />
+    <rect x="532" y="28" width="10" height="10" class="empty" />
+    <rect x="532" y="42" width="10" height="10" class="empty" />
+    <rect x="532" y="56" width="10" height="10" class="empty" />
+    <rect x="532" y="70" width="10" height="10" class="empty" />
+    <rect x="532" y="84" width="10" height="10" class="empty" />
+    <rect x="546" y="0" width="10" height="10" class="empty" />
+    <rect x="546" y="14" width="10" height="10" class="empty" />
+    <rect x="546" y="28" width="10" height="10" class="empty" />
+    <rect x="546" y="42" width="10" height="10" class="empty" />
+    <rect x="546" y="56" width="10" height="10" class="empty" />
+    <rect x="546" y="70" width="10" height="10" class="empty" />
+    <rect x="546" y="84" width="10" height="10" class="empty" />
+    <rect x="560" y="0" width="10" height="10" class="empty" />
+    <rect x="560" y="14" width="10" height="10" class="empty" />
+    <rect x="560" y="28" width="10" height="10" class="empty" />
+    <rect x="560" y="42" width="10" height="10" class="empty" />
+    <rect x="560" y="56" width="10" height="10" class="empty" />
+    <rect x="560" y="70" width="10" height="10" class="empty" />
+    <rect x="560" y="84" width="10" height="10" class="empty" />
+    <rect x="574" y="0" width="10" height="10" class="empty" />
+    <rect x="574" y="14" width="10" height="10" class="empty" />
+    <rect x="574" y="28" width="10" height="10" class="empty" />
+    <rect x="574" y="42" width="10" height="10" class="empty" />
+    <rect x="574" y="56" width="10" height="10" class="empty" />
+    <rect x="574" y="70" width="10" height="10" class="empty" />
+    <rect x="574" y="84" width="10" height="10" class="empty" />
+    <rect x="588" y="0" width="10" height="10" class="empty" />
+    <rect x="588" y="14" width="10" height="10" class="empty" />
+    <rect x="588" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.792;0.832;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.792;0.793;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="588" y="28" width="10" height="10" class="empty" />
+    <rect x="588" y="42" width="10" height="10" class="empty" />
+    <rect x="588" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.792;0.832;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.792;0.793;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="588" y="56" width="10" height="10" class="empty" />
+    <rect x="588" y="70" width="10" height="10" class="empty" />
+    <rect x="588" y="84" width="10" height="10" class="empty" />
+    <rect x="602" y="0" width="10" height="10" class="empty" />
+    <rect x="602" y="14" width="10" height="10" class="empty" />
+    <rect x="602" y="28" width="10" height="10" class="empty" />
+    <rect x="602" y="42" width="10" height="10" class="empty" />
+    <rect x="602" y="56" width="10" height="10" class="empty" />
+    <rect x="602" y="70" width="10" height="10" class="empty" />
+    <rect x="602" y="84" width="10" height="10" class="empty" />
+    <rect x="616" y="0" width="10" height="10" class="empty" />
+    <rect x="616" y="14" width="10" height="10" class="empty" />
+    <rect x="616" y="28" width="10" height="10" class="empty" />
+    <rect x="616" y="42" width="10" height="10" class="empty" />
+    <rect x="616" y="56" width="10" height="10" class="empty" />
+    <rect x="616" y="70" width="10" height="10" class="empty" />
+    <rect x="616" y="84" width="10" height="10" class="empty" />
+    <rect x="630" y="0" width="10" height="10" class="empty" />
+    <rect x="630" y="14" width="10" height="10" class="empty" />
+    <rect x="630" y="28" width="10" height="10" class="empty" />
+    <rect x="630" y="42" width="10" height="10" class="empty" />
+    <rect x="630" y="56" width="10" height="10" class="empty" />
+    <rect x="630" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.849;0.889;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.849;0.850;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="630" y="70" width="10" height="10" class="empty" />
+    <rect x="630" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.849;0.889;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.849;0.850;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="630" y="84" width="10" height="10" class="empty" />
+    <rect x="644" y="0" width="10" height="10" class="empty" />
+    <rect x="644" y="14" width="10" height="10" class="empty" />
+    <rect x="644" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.868;0.908;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.868;0.869;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="644" y="28" width="10" height="10" class="empty" />
+    <rect x="644" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.868;0.908;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.868;0.869;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="644" y="42" width="10" height="10" class="empty" />
+    <rect x="644" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.868;0.908;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.868;0.869;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="644" y="56" width="10" height="10" class="empty" />
+    <rect x="644" y="70" width="10" height="10" class="empty" />
+    <rect x="644" y="84" width="10" height="10" class="empty" />
+    <rect x="658" y="0" width="10" height="10" class="empty" />
+    <rect x="658" y="14" width="10" height="10" class="empty" />
+    <rect x="658" y="28" width="10" height="10" class="empty" />
+    <rect x="658" y="42" width="10" height="10" class="empty" />
+    <rect x="658" y="56" width="10" height="10" class="empty" />
+    <rect x="658" y="70" width="10" height="10" class="empty" />
+    <rect x="658" y="84" width="10" height="10" class="empty" />
+    <rect x="672" y="0" width="10" height="10" class="empty" />
+    <rect x="672" y="14" width="10" height="10" class="empty" />
+    <rect x="672" y="28" width="10" height="10" class="empty" />
+    <rect x="672" y="42" width="10" height="10" class="empty" />
+    <rect x="672" y="56" width="10" height="10" class="empty" />
+    <rect x="672" y="70" width="10" height="10" class="empty" />
+    <rect x="672" y="84" width="10" height="10" class="empty" />
+    <rect x="686" y="0" width="10" height="10" class="empty" />
+    <rect x="686" y="14" width="10" height="10" class="empty" />
+    <rect x="686" y="28" width="10" height="10" class="empty" />
+    <rect x="686" y="42" width="10" height="10" class="empty" />
+    <rect x="686" y="56" width="10" height="10" class="empty" />
+    <rect x="686" y="70" width="10" height="10" class="empty" />
+    <rect x="686" y="84" width="10" height="10" class="empty" />
+    <rect x="700" y="0" width="10" height="10" class="empty" />
+    <rect x="700" y="14" width="10" height="10" class="empty" />
+    <rect x="700" y="28" width="10" height="10" class="empty" />
+    <rect x="700" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.943;0.983;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.943;0.944;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="700" y="42" width="10" height="10" class="empty" />
+    <rect x="700" y="56" width="10" height="10" class="empty" />
+    <rect x="700" y="70" width="10" height="10" class="empty" />
+    <rect x="700" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.943;0.983;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.943;0.944;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="700" y="84" width="10" height="10" class="empty" />
+    <rect x="700" y="112" width="10" height="10" class="lvl2">
+      <animate attributeName="y" values="112;112;84;84" keyTimes="0;0.943;0.983;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.943;0.944;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="0" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;0;0" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="14" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="28" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="42" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;42;42" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="56" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;56;56" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="70" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;70;70" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="714" y="84" width="10" height="10" class="empty" />
+    <rect x="714" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;84;84" keyTimes="0;0.962;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.962;0.963;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="728" y="0" width="10" height="10" class="empty" />
+    <rect x="728" y="112" width="10" height="10" class="lvl1">
+      <animate attributeName="y" values="112;112;0;0" keyTimes="0;0.981;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.981;0.982;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="728" y="14" width="10" height="10" class="empty" />
+    <rect x="728" y="112" width="10" height="10" class="lvl3">
+      <animate attributeName="y" values="112;112;14;14" keyTimes="0;0.981;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.981;0.982;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <rect x="728" y="28" width="10" height="10" class="empty" />
+    <rect x="728" y="112" width="10" height="10" class="lvl4">
+      <animate attributeName="y" values="112;112;28;28" keyTimes="0;0.981;1.000;1" dur="15.0s" calcMode="spline" keySplines="0 0 1 1; 0.25 1 0.5 1; 0 0 1 1" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.981;0.982;1" dur="15.0s" repeatCount="indefinite" />
+    </rect>
+    <!-- Mario Character -->
+    <image href="https://techity.eu.org/imgs/2026/04/bda6a35ba2b06278.png" x="0" y="108" width="16" height="16">
+      <animate attributeName="x" from="-20" to="742" dur="15.0s" repeatCount="indefinite" />
+    </image>
+  </g>
+</svg>
