@@ -127,7 +127,7 @@ def generate_mario_github_svg(filename="mario_contribution.svg"):
     svg_elements.append('    <!-- Mario Character -->')
     
     # To use your own image, you can change this href to a URL like "https://raw.githubusercontent.com/YourName/Repo/main/mario.png"
-    fallback_mario_url = "https://techity.eu.org/imgs/2026/04/bda6a35ba2b06278.png" 
+    fallback_mario_url = "https://upload.wikimedia.org/wikipedia/commons/3/39/Mario_Step.gif" 
     
     svg_elements.append(f'    <image href="{fallback_mario_url}" x="0" y="{mario_y - 4}" width="{cell_size + 6}" height="{cell_size + 6}">')
     svg_elements.append(f'      <animate attributeName="x" from="-20" to="{cols * step}" dur="{animation_duration}s" repeatCount="indefinite" />')
