@@ -424,7 +424,7 @@
   <rect x="376" y="54" width="10" height="10" class="empty" />
   <rect x="376" y="68" width="10" height="10" class="empty" />
   <rect x="376" y="82" width="10" height="10" class="empty" />
-  <rect x="376" y="96" width="10" height="10" class="lvl2" />
+  <rect x="376" y="96" width="10" height="10" class="lvl1" />
   <rect x="376" y="110" width="10" height="10" class="lvl3" />
   <rect x="376" y="124" width="10" height="10" class="empty" />
   <rect x="390" y="40" width="10" height="10" class="empty" />
@@ -453,7 +453,7 @@
   <rect x="432" y="68" width="10" height="10" class="empty" />
   <rect x="432" y="82" width="10" height="10" class="lvl1" />
   <rect x="432" y="96" width="10" height="10" class="lvl2" />
-  <rect x="432" y="110" width="10" height="10" class="lvl4" />
+  <rect x="432" y="110" width="10" height="10" class="lvl3" />
   <rect x="432" y="124" width="10" height="10" class="empty" />
   <rect x="446" y="40" width="10" height="10" class="empty" />
   <rect x="446" y="54" width="10" height="10" class="empty" />
@@ -619,6 +619,7 @@
   <rect x="768" y="40" width="10" height="10" class="lvl1" />
   <rect x="768" y="54" width="10" height="10" class="lvl2" />
   <rect x="768" y="68" width="10" height="10" class="lvl4" />
+  <rect x="768" y="82" width="10" height="10" class="empty" />
   <g transform="translate(82, 95)">
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.085;0.115;1" dur="20s" repeatCount="indefinite" />
@@ -644,13 +645,6 @@
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.283;0.313;1" dur="20s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.283;0.313;1" dur="20s" repeatCount="indefinite" />
-      <use href="#coin" x="0" y="0" />
-    </g>
-  </g>
-  <g transform="translate(432, 98)">
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.498;0.528;1" dur="20s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.498;0.528;1" dur="20s" repeatCount="indefinite" />
       <use href="#coin" x="0" y="0" />
     </g>
   </g>
