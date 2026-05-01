@@ -620,7 +620,8 @@
   <rect x="768" y="54" width="10" height="10" class="lvl1" />
   <rect x="768" y="68" width="10" height="10" class="lvl1" />
   <rect x="768" y="82" width="10" height="10" class="lvl1" />
-  <rect x="768" y="96" width="10" height="10" class="empty" />
+  <rect x="768" y="96" width="10" height="10" class="lvl1" />
+  <rect x="768" y="110" width="10" height="10" class="empty" />
   <g transform="translate(82, 95)">
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.085;0.115;1" dur="20s" repeatCount="indefinite" />
